@@ -14,5 +14,5 @@ To setup this component you should:
 1.Get the core files from https://github.com/Eeegry/carousel
 2.Install Webpack
 3.Install Webpack Cli
-4.Install needed packages, you can find them in package.json file. (Nmp install)
-5.All needed files, modules and packages are installed! You can launch the app using npm start  comand.
+4.Install needed packages, you can find them in package.json file. It is recommended to use "npm install" command.
+5.All needed files, modules and packages are installed! You can launch the app using npm start coьmand.
