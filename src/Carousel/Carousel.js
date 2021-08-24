@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Carousel.css";
 import { content } from "../Helpers/CarouselData";
+import "../Helpers/NavigationButtons.css";
 
 function Carousel() {
   const [x, setX] = useState(0);
@@ -49,9 +50,9 @@ function Carousel() {
             className="slide"
             style={{ transform: `translateX(${x}%)` }}
           >
-            <div className="slide-content">{item}</div>
+            <div className="slideContent">{item}</div>
             <div
-              className="button_section"
+              className="buttonSection"
               style={{ transform: `translateX(${buttonShift}%)` }}
             >
               {renderAllButtons(content.length)}
