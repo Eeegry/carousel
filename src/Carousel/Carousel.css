@@ -83,15 +83,19 @@ img {
   img {
     max-width: 80%;
   }
+
+  p {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 /* Mobile version */
 @media screen and (max-width: 1100px) {
   img {
-    height: 100%;
-    width: 100%;
     overflow: hidden;
     position: absolute;
     margin: auto;
+    clip: rect(0px, 100vw, 100vh, 0px);
   }
 
   .center {
@@ -101,6 +105,9 @@ img {
   .slideContent {
     height: 100%;
     width: 100vw;
+  }
+  .slide {
+    height: 100%;
   }
 }
 
